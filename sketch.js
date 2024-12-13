@@ -24,7 +24,7 @@ let noiseValR, noiseValG, noiseValB;
 /////////////////////////////////PRELOAD////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////
 function preload() {
-  img = loadImage('assets/lafemme.png');
+  img = loadImage("assets/xyz.png");
 }
 
 
@@ -71,30 +71,30 @@ function draw() {
 
   if (speed == 3){
     fill(255);
-    text('Hi Mehr!', 200, 200);
+    text('Hi Maria!', 200, 200);
 
   } else if (speed == 10){
     fill(255);
-    text('Hi Mehr!', 200, 200);
+    text('Hi Maria!', 200, 200);
     text('i just wanted to say that', 200, 240);
 
 
   } else if (speed == 50){
     fill(255);
-    text('Hi Mehr!', 200, 200);
+    text('Hi Maria!', 200, 200);
     text('i just wanted to say that', 200, 240);
     text('you are the love of my life!', 200, 280);
 
   } else if (speed == 100){
     fill(255);
-    text('Hi Mehr!', 200, 200);
+    text('Hi Maria!', 200, 200);
     text('i just wanted to say that', 200, 240);
     text('you are the love of my life!', 200, 280);
     text('and that i will be in love with you', width-450, 530);
 
   } else if (speed == 200){
     fill(255);
-    text('Hi Mehr!', 200, 200);
+    text('Hi Maria!', 200, 200);
     text('i just wanted to say that', 200, 240);
     text('you are the love of my life!', 200, 280);
     text('and that i will be in love with you', width-450, 530);
@@ -240,7 +240,7 @@ function bigend(){
   text('for your gift', width-290, height-140)
   text('heart exploded sorry love ya too much', (width/2)-350, (height/2)-100);
   text('happy holidays day my angel - thankful for you everyday  ;)', width/2, (height/2));
-  text('Shanze & Mehr forever <3', width/2-150, height/2 + 100);
+  text('Shanze & Maria forever <3', width/2-150, height/2 + 100);
 
   //Shooting stars
     if (shootheight<height+50){
